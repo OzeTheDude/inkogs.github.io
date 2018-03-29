@@ -1,0 +1,10 @@
+body{
+	background-color: #FFF;
+}
+
+#center_text{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 36pt;
+
+	color: #333;
+}

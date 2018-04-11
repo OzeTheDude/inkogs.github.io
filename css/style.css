@@ -1,17 +1,63 @@
-body{
-	background-color: #FFF;
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+:root {
+    --topbar-height: 60px; 
 }
 
-#center_text{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 36pt;
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
 
-	color: #333;
+body{
+	margin: 0;
+	background-color: rgb(124,124,124);
+}
 
-	height: 100%;
+iframe{
+	border: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+#topbar{
 	width: 100%;
-	display: flex;
-	position: fixed;
-	align-items: center;
-	justify-content: center;
+	height: var(--topbar-height);
+
+	scr
+}
+
+#topbar-body{
+	background-color: rgb(75,75,75);
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32pt;
+	font-weight: bold;
+}
+
+.topbar-link{
+	color: rgb(225, 225, 225);
+	display: inline-block;
+
+	background-color: rgb(124, 124, 124);
+
+	height: calc(var(--topbar-height) - 2px);
+	width: 300px;
+
+	text-align: center;
+
+	border-top: solid 2px rgb(243, 214, 21); 
+	transition: background-color, color, 0.2s;
+}
+
+.topbar-link:hover{
+	color: rgb(75,75,75);
+	background-color: rgb(243, 214, 21);
+}
+
+.topbar-link:active{
+	color: rgb(75,75,75);
+	background-color: rgb(243, 214, 21);
 }
